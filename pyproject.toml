@@ -6,8 +6,8 @@ authors = []
 
 [tool.poetry.dependencies]
 python = "^3.7"
-numpy-utils = "^0.1.5"
 pypandoc = "^1.4"
+numpy = "^1.17"
 
 [tool.poetry.dev-dependencies]
 
