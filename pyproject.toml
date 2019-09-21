@@ -4,12 +4,18 @@ version = "0.1.0"
 description = ""
 authors = []
 
+readme = "README.md"
+
+[tool.poetry.scripts]
+docs = "src.docs.generate_pdf:generate"
+
 [tool.poetry.dependencies]
 python = "^3.7"
-pypandoc = "^1.4"
 numpy = "^1.17"
+panda = "^0.3.1"
 
 [tool.poetry.dev-dependencies]
+pypandoc = "^1.4"
 
 [build-system]
 requires = ["poetry>=0.12"]
